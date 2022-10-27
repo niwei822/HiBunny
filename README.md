@@ -1,2 +1,2 @@
-# HiBunny
-###Instargram clone APP for bunny lovers
+## HiBunny
+### Instargram clone APP for bunny lovers
