@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CCB5CA0290B75A300AFF657 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */; };
+		8CCB5CA6290B85C200AFF657 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB5CA5290B85C200AFF657 /* Extensions.swift */; };
 		D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */; };
 		D5BCD399290AEF2B001A38F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD398290AEF2B001A38F8 /* ContentView.swift */; };
 		D5BCD39B290AEF31001A38F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BCD39A290AEF31001A38F8 /* Assets.xcassets */; };
-		D5BCD39E290AEF31001A38F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BCD39D290AEF31001A38F8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8CCB5CA5290B85C200AFF657 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D5BCD393290AEF2B001A38F8 /* HiBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiBunnyApp.swift; sourceTree = "<group>"; };
 		D5BCD398290AEF2B001A38F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5BCD39A290AEF31001A38F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5BCD39D290AEF31001A38F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CCB5CA1290B7E0300AFF657 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB5CA3290B7E1C00AFF657 /* Screens */,
+				8CCB5CA2290B7E1000AFF657 /* Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CCB5CA2290B7E1000AFF657 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		8CCB5CA3290B7E1C00AFF657 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */,
+				D5BCD398290AEF2B001A38F8 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8CCB5CA4290B85AE00AFF657 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB5CA5290B85C200AFF657 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D5BCD38A290AEF2B001A38F8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +86,11 @@
 		D5BCD395290AEF2B001A38F8 /* HiBunny */ = {
 			isa = PBXGroup;
 			children = (
-				D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */,
-				D5BCD398290AEF2B001A38F8 /* ContentView.swift */,
+				8CCB5CA4290B85AE00AFF657 /* Helpers */,
+				8CCB5CA1290B7E0300AFF657 /* Views */,
 				D5BCD39A290AEF31001A38F8 /* Assets.xcassets */,
 				D5BCD39C290AEF31001A38F8 /* Preview Content */,
+				8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */,
 			);
 			path = HiBunny;
 			sourceTree = "<group>";
@@ -62,7 +98,6 @@
 		D5BCD39C290AEF31001A38F8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D5BCD39D290AEF31001A38F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BCD39E290AEF31001A38F8 /* Preview Assets.xcassets in Resources */,
+				8CCB5CA0290B75A300AFF657 /* Launch Screen.storyboard in Resources */,
 				D5BCD39B290AEF31001A38F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5BCD399290AEF2B001A38F8 /* ContentView.swift in Sources */,
+				8CCB5CA6290B85C200AFF657 /* Extensions.swift in Sources */,
 				D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +309,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +339,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
