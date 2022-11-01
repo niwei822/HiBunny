@@ -1,2 +1,2 @@
 ## HiBunny
-### Instargram clone APP for bunny lovers
+### Instagram clone APP for bunny lovers
