@@ -18,6 +18,7 @@
 		8CD73E9D290F851A00F561AB /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD73E9C290F851A00F561AB /* CommentModel.swift */; };
 		8CE67E0929108F8C002126CC /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE67E0829108F8C002126CC /* BrowseView.swift */; };
 		8CE67E0D2910B393002126CC /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE67E0C2910B393002126CC /* CarouselView.swift */; };
+		8CE67E0F2910C33D002126CC /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE67E0E2910C33D002126CC /* ImageGridView.swift */; };
 		D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */; };
 		D5BCD399290AEF2B001A38F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD398290AEF2B001A38F8 /* ContentView.swift */; };
 		D5BCD39B290AEF31001A38F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BCD39A290AEF31001A38F8 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		8CD73E9C290F851A00F561AB /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		8CE67E0829108F8C002126CC /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		8CE67E0C2910B393002126CC /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		8CE67E0E2910C33D002126CC /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		D5BCD393290AEF2B001A38F8 /* HiBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiBunnyApp.swift; sourceTree = "<group>"; };
 		D5BCD398290AEF2B001A38F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				8CE67E0C2910B393002126CC /* CarouselView.swift */,
 				8CD73E91290E2EFA00F561AB /* PostView.swift */,
 				8CD73E9A290F230000F561AB /* MessageView.swift */,
+				8CE67E0E2910C33D002126CC /* ImageGridView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				8CD73E9B290F230000F561AB /* MessageView.swift in Sources */,
 				8CD73E95290E424900F561AB /* PostModel.swift in Sources */,
 				D5BCD399290AEF2B001A38F8 /* ContentView.swift in Sources */,
+				8CE67E0F2910C33D002126CC /* ImageGridView.swift in Sources */,
 				8CCB5CA6290B85C200AFF657 /* Extensions.swift in Sources */,
 				8CE67E0929108F8C002126CC /* BrowseView.swift in Sources */,
 				8CD73E9D290F851A00F561AB /* CommentModel.swift in Sources */,
