@@ -14,5 +14,8 @@ extension Color {
         static var pinkColor: Color {
             return Color("Colorpink")
         }
+        static var purpleColor: Color {
+            return Color("Colorpurple")
+        }
     }
 }

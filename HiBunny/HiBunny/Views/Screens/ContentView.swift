@@ -25,7 +25,9 @@ struct ContentView: View {
                 Image(systemName: "magnifyingglass")
                 Text("Browse")
             }
-            Text("third screen")
+            NavigationView {
+                UploadView()
+            }
                 .tabItem {
                     Image(systemName: "square.and.arrow.up.fill")
                     Text("Upload")
@@ -36,7 +38,7 @@ struct ContentView: View {
                     Text("Profile")
                 }
         }
-        .accentColor(.purple)
+        .accentColor(Color.MyTheme.purpleColor)
     }
 }
 
