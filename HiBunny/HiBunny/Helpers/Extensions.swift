@@ -17,5 +17,8 @@ extension Color {
         static var purpleColor: Color {
             return Color("Colorpurple")
         }
+        static var beigeColor: Color {
+            return Color("Colorbeige")
+        }
     }
 }

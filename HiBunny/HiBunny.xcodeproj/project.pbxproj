@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CCAF0D129137C51005B4B49 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF0D029137C51005B4B49 /* PostImageView.swift */; };
 		8CCB5CA0290B75A300AFF657 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */; };
 		8CCB5CA6290B85C200AFF657 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB5CA5290B85C200AFF657 /* Extensions.swift */; };
 		8CD0A7B929136F3600A154B0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0A7B829136F3600A154B0 /* ImagePicker.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CCAF0D029137C51005B4B49 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
 		8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8CCB5CA5290B85C200AFF657 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8CD0A7B829136F3600A154B0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				8CD73E98290F207500F561AB /* CommentView.swift */,
 				8CE67E0829108F8C002126CC /* BrowseView.swift */,
 				8CE67E102910CD25002126CC /* UploadView.swift */,
+				8CCAF0D029137C51005B4B49 /* PostImageView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				8CD73E90290E2DBE00F561AB /* FeedView.swift in Sources */,
 				8CD73E97290E459800F561AB /* PostArrayObjects.swift in Sources */,
+				8CCAF0D129137C51005B4B49 /* PostImageView.swift in Sources */,
 				8CD73E99290F207500F561AB /* CommentView.swift in Sources */,
 				8CD73E9B290F230000F561AB /* MessageView.swift in Sources */,
 				8CD73E95290E424900F561AB /* PostModel.swift in Sources */,
