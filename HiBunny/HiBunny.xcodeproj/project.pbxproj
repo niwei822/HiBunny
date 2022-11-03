@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8CCB5CA0290B75A300AFF657 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */; };
 		8CCB5CA6290B85C200AFF657 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB5CA5290B85C200AFF657 /* Extensions.swift */; };
+		8CD0A7B929136F3600A154B0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0A7B829136F3600A154B0 /* ImagePicker.swift */; };
 		8CD73E90290E2DBE00F561AB /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD73E8F290E2DBE00F561AB /* FeedView.swift */; };
 		8CD73E92290E2EFA00F561AB /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD73E91290E2EFA00F561AB /* PostView.swift */; };
 		8CD73E95290E424900F561AB /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD73E94290E424900F561AB /* PostModel.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		8CCB5C9F290B75A300AFF657 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8CCB5CA5290B85C200AFF657 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8CD0A7B829136F3600A154B0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		8CD73E8F290E2DBE00F561AB /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8CD73E91290E2EFA00F561AB /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		8CD73E94290E424900F561AB /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				8CD73E91290E2EFA00F561AB /* PostView.swift */,
 				8CD73E9A290F230000F561AB /* MessageView.swift */,
 				8CE67E0E2910C33D002126CC /* ImageGridView.swift */,
+				8CD0A7B829136F3600A154B0 /* ImagePicker.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				8CD73E9D290F851A00F561AB /* CommentModel.swift in Sources */,
 				8CD73E92290E2EFA00F561AB /* PostView.swift in Sources */,
 				8CE67E112910CD25002126CC /* UploadView.swift in Sources */,
+				8CD0A7B929136F3600A154B0 /* ImagePicker.swift in Sources */,
 				8CE67E0D2910B393002126CC /* CarouselView.swift in Sources */,
 				D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */,
 			);
@@ -358,6 +362,8 @@
 				DEVELOPMENT_TEAM = WA62BJ74N5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = " This app uses the camera at the user's request to take a photo.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This allows the app to access the photo library to import or save a photo at the user's request.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -388,6 +394,8 @@
 				DEVELOPMENT_TEAM = WA62BJ74N5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = " This app uses the camera at the user's request to take a photo.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This allows the app to access the photo library to import or save a photo at the user's request.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
