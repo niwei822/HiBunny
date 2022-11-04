@@ -32,7 +32,9 @@ struct ContentView: View {
                     Image(systemName: "square.and.arrow.up.fill")
                     Text("Upload")
                 }
-            Text("second screen")
+            NavigationView {
+                ProfileView()
+            }
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("Profile")
