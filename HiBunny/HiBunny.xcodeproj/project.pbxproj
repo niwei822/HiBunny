@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C630C3429161B1A00853B0D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C630C3329161B1900853B0D /* SettingsView.swift */; };
+		8C630C3629161DB700853B0D /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C630C3529161DB700853B0D /* SettingsLabelView.swift */; };
+		8C630C382916211700853B0D /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C630C372916211700853B0D /* SettingsRowView.swift */; };
 		8CA9A67F2914D11600B22B60 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9A67E2914D11600B22B60 /* ProfileView.swift */; };
 		8CA9A6812914D29E00B22B60 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9A6802914D29E00B22B60 /* ProfileHeaderView.swift */; };
 		8CCAF0D129137C51005B4B49 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF0D029137C51005B4B49 /* PostImageView.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C630C3329161B1900853B0D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8C630C3529161DB700853B0D /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		8C630C372916211700853B0D /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		8CA9A67E2914D11600B22B60 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8CA9A6802914D29E00B22B60 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		8CCAF0D029137C51005B4B49 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
@@ -82,6 +88,8 @@
 				8CE67E0E2910C33D002126CC /* ImageGridView.swift */,
 				8CD0A7B829136F3600A154B0 /* ImagePicker.swift */,
 				8CA9A6802914D29E00B22B60 /* ProfileHeaderView.swift */,
+				8C630C3529161DB700853B0D /* SettingsLabelView.swift */,
+				8C630C372916211700853B0D /* SettingsRowView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 				8CE67E102910CD25002126CC /* UploadView.swift */,
 				8CCAF0D029137C51005B4B49 /* PostImageView.swift */,
 				8CA9A67E2914D11600B22B60 /* ProfileView.swift */,
+				8C630C3329161B1900853B0D /* SettingsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -227,6 +236,7 @@
 			files = (
 				8CD73E90290E2DBE00F561AB /* FeedView.swift in Sources */,
 				8CD73E97290E459800F561AB /* PostArrayObjects.swift in Sources */,
+				8C630C3629161DB700853B0D /* SettingsLabelView.swift in Sources */,
 				8CCAF0D129137C51005B4B49 /* PostImageView.swift in Sources */,
 				8CD73E99290F207500F561AB /* CommentView.swift in Sources */,
 				8CD73E9B290F230000F561AB /* MessageView.swift in Sources */,
@@ -243,6 +253,8 @@
 				8CD0A7B929136F3600A154B0 /* ImagePicker.swift in Sources */,
 				8CE67E0D2910B393002126CC /* CarouselView.swift in Sources */,
 				D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */,
+				8C630C3429161B1A00853B0D /* SettingsView.swift in Sources */,
+				8C630C382916211700853B0D /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

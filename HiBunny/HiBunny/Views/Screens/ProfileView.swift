@@ -24,7 +24,6 @@ struct ProfileView: View {
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarItems(trailing:
                                 Button(action: {
-            
         }, label: {
             Image(systemName: "line.horizontal.3")
         })
