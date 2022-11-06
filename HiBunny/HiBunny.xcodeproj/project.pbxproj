@@ -27,6 +27,7 @@
 		8CE67E0D2910B393002126CC /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE67E0C2910B393002126CC /* CarouselView.swift */; };
 		8CE67E0F2910C33D002126CC /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE67E0E2910C33D002126CC /* ImageGridView.swift */; };
 		8CE67E112910CD25002126CC /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE67E102910CD25002126CC /* UploadView.swift */; };
+		8CE970B629177B2700D261E6 /* SettingsEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE970B529177B2700D261E6 /* SettingsEditTextView.swift */; };
 		D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */; };
 		D5BCD399290AEF2B001A38F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BCD398290AEF2B001A38F8 /* ContentView.swift */; };
 		D5BCD39B290AEF31001A38F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BCD39A290AEF31001A38F8 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		8CE67E0C2910B393002126CC /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		8CE67E0E2910C33D002126CC /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		8CE67E102910CD25002126CC /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		8CE970B529177B2700D261E6 /* SettingsEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditTextView.swift; sourceTree = "<group>"; };
 		D5BCD393290AEF2B001A38F8 /* HiBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BCD396290AEF2B001A38F8 /* HiBunnyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiBunnyApp.swift; sourceTree = "<group>"; };
 		D5BCD398290AEF2B001A38F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				8CCAF0D029137C51005B4B49 /* PostImageView.swift */,
 				8CA9A67E2914D11600B22B60 /* ProfileView.swift */,
 				8C630C3329161B1900853B0D /* SettingsView.swift */,
+				8CE970B529177B2700D261E6 /* SettingsEditTextView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				8CE67E0D2910B393002126CC /* CarouselView.swift in Sources */,
 				D5BCD397290AEF2B001A38F8 /* HiBunnyApp.swift in Sources */,
 				8C630C3429161B1A00853B0D /* SettingsView.swift in Sources */,
+				8CE970B629177B2700D261E6 /* SettingsEditTextView.swift in Sources */,
 				8C630C382916211700853B0D /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -28,7 +28,10 @@ struct SettingsView: View {
                 .padding()
                 
                 GroupBox(label: SettingsLabelView(labelText: "Profile", labelImage: "person.fill"), content: {
-                    SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.MyTheme.purpleColor)
+                    NavigationLink(destination: SettingsEditTextView(submissionText: "current name", title: "String", description: "String", placeHolder: "Your display name..."), label: {
+                        SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.MyTheme.purpleColor)
+                    })
+                    
                     SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.MyTheme.pinkColor)
                     SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.MyTheme.purpleColor)
                     SettingsRowView(leftIcon: "figure.walk", text: "Sign out", color: Color.MyTheme.pinkColor)
